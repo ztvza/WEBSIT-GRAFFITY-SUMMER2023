@@ -1,0 +1,46 @@
+.container_header {
+    width: 1102px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+@media screen and ( max-width: 1200px ) {
+    .container_header {
+        width: 930px;
+    }
+
+    .container{
+        width: 850px;
+    }
+}
+
+@media screen and ( max-width: 930px ){
+    .container_header {
+        width: 767px;
+    }
+
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+
+    .container_header {
+        width: 90%;
+    }
+
+    .container {
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container_header {
+        width: 400px;
+    }
+}

@@ -1,0 +1,34 @@
+/*.header {*/
+/*    margin-bottom: 150px;*/
+/*}*/
+
+/*header {*/
+/*    background-image: linear-gradient(0deg, #7a222e, rgb(166 94 104));*/
+/*}*/
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.nav_map {
+    color: wheat;
+    font-family: 'Modak', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.nav_logo {
+    font-size: 37px;
+    font-family: 'Creepster', cursive;
+    color: wheat;
+}
+
+@media screen and (max-width: 425px){
+    .header_nav {
+        padding: 40px 10px;
+    }
+}

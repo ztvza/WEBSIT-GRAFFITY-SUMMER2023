@@ -1,0 +1,35 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    /*background-color: #7a222e;*/
+}
+
+body {
+    background: rgb(122,34,46);
+    /*background: linear-gradient(110deg, rgba(122,34,46,1) 35%, rgba(125,111,120,1) 100%);*/
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*font-family: 'Luckiest Guy', cursive;*/
+/*font-family: 'Modak', cursive;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
