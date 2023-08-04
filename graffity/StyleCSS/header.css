@@ -31,4 +31,7 @@
     .header_nav {
         padding: 40px 10px;
     }
+    .nav_map {
+        font-size: 25px;
+    }
 }

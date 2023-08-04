@@ -10,12 +10,11 @@
 
 .card {
     /*width: -webkit-fill-available;*/
-    margin: 0px 7px;
+    margin: 0 7px;
     transition: 1s;
     background-color: wheat;
-    border: 0px;
     border-radius: 10px;
-    max-width:100%;
+    max-width: 100%;
     height: auto;
     text-align: center;
     border: solid 10px wheat;

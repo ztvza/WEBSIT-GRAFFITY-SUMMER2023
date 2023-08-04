@@ -103,3 +103,16 @@
 #slaid6:checked~.adaptivSlayderlasekun .abusteku-deagulus {
     transform: translateX(-200%);
 }
+
+@media screen and (max-width: 768px){
+    .adaptivSlayder {
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .kadoves label {
+        width: 18px;
+        height: 18px;
+    }
+}
